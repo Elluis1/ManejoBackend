@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'funko_api.apps.FunkoApiConfig',
+    'Pokemon.apps.PokemonConfig',
 ]
 
 MIDDLEWARE = [
