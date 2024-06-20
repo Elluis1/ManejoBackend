@@ -8,7 +8,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     path('pokemons_rest/', views.pokemons_rest, name='pokemons_rest'),
-    path('add_pokemon/', views.add_pokemon_view, name='add_pokemon'),
+    path('add_pokemon/', views.NewPokemonView.as_view(), name='add_pokemon'),
 ]
 
 # from django.urls import path
