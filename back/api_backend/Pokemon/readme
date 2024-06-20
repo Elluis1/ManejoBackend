@@ -1,0 +1,34 @@
+Proyecto TP 
+Metodos de uso:
+Para agregar un pokemon se le agrega al URL "/add_pokemon" para ir al formulario donde agregar los pokemons.
+Luego de agregarlo se genera un envio a la base de datos quien guarda el pokemon, al hacer el submit se redirecciona al inicio para ver la lista de pokemons
+
+los tipos son:
+"NOR": "Normal"
+"FIR": "Fire"
+"WAT": "Water"
+"ELE": "Electric"
+"GRA": "Grass"
+"ICE": "Ice"
+"FIG": "Fighting"
+"POI": "Poison"
+"GRO": "Ground"
+"FLY": "Flying"
+"PSY": "Psychic"
+"BUG": "Bug"
+"ROC": "Rock"
+"GHO": "Ghost"
+"DRA": "Dragon"
+"DAR": "Dark"
+"STE": "Steel"
+"FAI": "Fairy"
+
+Las generaciones son:
+"GEN1": "Generation I"
+"GEN2": "Generation II"
+"GEN3": "Generation III"
+"GEN4": "Generation IV"
+"GEN5": "Generation V"
+"GEN6": "Generation VI"
+"GEN7": "Generation VII"
+"GEN8": "Generation VIII"
