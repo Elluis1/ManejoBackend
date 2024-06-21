@@ -6,7 +6,7 @@ from django.db import models
 class Pokemon(models.Model):
     name = models.CharField(max_length=128)
     number = models.IntegerField()
-    
+
     class generations(models.TextChoices):
         GEN_1 = "GEN1", ("Generation I")
         GEN_2 = "GEN2", ("Generation II")
@@ -21,6 +21,7 @@ class Pokemon(models.Model):
         choices=generations,
         blank=False
     )
+
     class types(models.TextChoices):
         NORMAL = "NOR", ("Normal")
         FIRE = "FIR", ("Fire")
